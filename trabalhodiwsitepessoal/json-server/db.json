@@ -1,0 +1,38 @@
+{
+    "conteudo": [
+      [
+        {"id": "1", "image": "images/london.jpg"},
+        {"id": "2", "image": "images/mickey.jpg"},
+        {"id": "3", "image": "images/barbie.jpg"},
+        {"id": "4", "image": "images/obx.jpg"},
+        {"id": "5", "image": "images/f1.jpg"}
+      ]      
+    ],
+    
+    "colegas":[
+        {
+            "id": "1",
+            "image": "images/fotoAlice.jpg",
+            "name": "Alice Cazati",
+            "github": "https://github.com/alicecazati"
+        },
+        {
+            "id": "2",
+            "image": "images/fotoFilipi.jpg",
+            "name": "Filipi Perreira",
+            "github": "https://github.com/filipiipereira"
+        },
+        {
+            "id": "3",
+            "image": "images/fotoSofia.jpg",
+            "name": "Sofia Grossi",
+            "github": "https://github.com/Sofia-0812"
+        },
+        {
+            "id": "4",
+            "image": "images/fotoDavi.jpg",
+            "name": "Davi Godoi",
+            "github": "https://github.com/D4v1G0D01"
+        }
+    ]
+}

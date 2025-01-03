@@ -1,0 +1,305 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+
+/*Cabeçalho*/
+
+.cabecalho {
+    padding: 0 !important;
+}
+
+h1{
+    height: 5px;
+    font-weight: 150;
+    font-size: large;
+    text-align: center;
+}
+
+span p{
+    background-color: rgb(224, 220, 220);
+    border: 2px solid #fff;
+    padding: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    width: 60%;
+    height: 60px;
+    object-fit: cover;
+    font-size: xx-large;
+}
+
+
+/*Perfil*/
+
+p{
+    font-size: 20px;
+    padding: 20px 0px 0px;
+    font-weight: 200;
+    font-weight: normal;
+}
+
+#name{
+    font-size: 20px;
+}
+
+.img_perfil {
+    border: 2px solid #fff;
+    padding: 0 !important;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/*Componente Menu Principal*/
+
+main{
+    padding: 0 2vw;
+}
+
+.caixa-menuprincipal {
+    float: right;
+}
+
+.caixa-menuprincipal ul {
+    list-style-type: none;
+}
+
+.caixa-menuprincipal ul li {
+    display: inline-block;
+}
+
+
+/*Seções*/
+
+.cabecalho{
+    padding: 20px 0px 5px 15px;
+}
+
+.caixa-menuprincipal ul li a {
+    text-decoration: none;
+    color:black;
+    font-size: x-large;
+    padding: 0px 30px 0px;
+    height: 4px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: 200;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+}
+
+
+/*Imagem do perfil*/
+
+img{
+    display: block;
+    float: left;
+    margin-right: 10px;
+    width:200px;
+    padding: 30px 20px 40px;
+}
+
+
+/*Nome Completo*/
+
+.h3{
+    height: 15px;
+}
+
+
+/*Localização e Site*/
+
+h4{
+    display: inline-block;
+    font-size: medium;
+}
+
+article{
+    font-size: 15px;
+    font-weight: 200;
+}
+
+
+/*Ícones*/
+
+.wpp{
+    width: 70px;
+}
+
+.insta{
+    width: 70px;
+}
+
+.twitter{
+    width: 70px;
+}
+
+.pessoa{
+    width: 50%;
+    /* margin-left: 1150px; */
+    /*padding: 0px 700px 0px 0px;*/
+}
+.pessoa img {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.img_perfil {
+    width: 100%;
+    height: auto;
+}
+
+
+
+/*Repositório*/
+
+.repo{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.subtítulo{
+    position: relative;
+    margin-top: 30px;
+}
+
+.repo-link {
+    text-decoration: none;
+    color: black;
+    font-size:large;
+    font-weight: bolder;
+}
+
+.card{
+    border-radius: 10px;
+    border: 2px solid #fff;
+    padding: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    object-fit: cover;
+}
+
+.card img{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.icones{
+    display: flex;
+    align-items: center;
+    margin: 0 1vw;
+    font-size: 30px;
+}
+
+.icon{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.icones p{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.icones i{
+    margin-right: 1vw;
+}
+
+.icones.star i{
+    color: #b3b3b3;
+}
+
+.icones.user i{
+    color: #d87dab;
+}
+
+.card-text{
+    margin-bottom: 0px;
+    padding-top: 0px;
+}
+
+
+/*Carousel*/
+
+#carouselExampleIndicators{
+    width: 60%;
+}
+.Carousel{
+    display: flex;
+    justify-content: center;
+}
+
+
+/*Colegas de Trabalho*/
+
+.colegas{
+    display: block;
+}
+
+#colegasContainer{
+    display: flex;
+}
+
+.colega{
+    display: inline-block;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 2vw;
+}
+
+.colega img{
+    margin: 0;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    padding: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.colega p{
+    font-size: 16px;
+    margin-left: 30px;
+}
+
+
+/*Rodapé*/
+
+footer{
+    background-color: grey;
+    clear: both;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+@media only screen and (min-width: 768px){
+    .conteudo{
+        font-size: 100%;
+    }
+    .card {
+        width: 100%;
+    }
+    .colegas {
+        display: flex;
+    }
+}
+
+@media only screen and(max-width: 414px){
+    .conteudo{
+        font-size: 120%;
+    }
+    .card {
+        width: 100%;
+    }
+
+    .colegas {
+        display: block;
+    }
+}
